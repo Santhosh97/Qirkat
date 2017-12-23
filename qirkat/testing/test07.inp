@@ -1,0 +1,12 @@
+# Test all legal simple jumps.
+java -ea qirkat.Main
+set white ----- -b--- --w-- ----- -----
+c3-a1
+dump
+@<===
+@< - - - - -
+@< - - - - -
+@< - - - - -
+@< - - - - -
+@< w - - - -
+@<===
